@@ -27,3 +27,5 @@ add_executable(hexdump_benchmark
     benchmark.cpp
 )
 target_link_libraries(hexdump_benchmark hexdump_lib benchmark::benchmark)
+
+add_executable(guard guard.cpp)
